@@ -8,6 +8,7 @@
 #include<vector>
 #include<cstring>
 #include <bits/stdc++.h>
+#inlcude<sstream>
 using namespace std;
 struct node
 {
@@ -56,6 +57,14 @@ int main()
         cin >> n1;
         cin >> n2;
         cin >> w;
+        stringstream stream;
+        stream << n1;
+        string str1;
+        stream >> str1;
+        stringstream stream;
+        stream << n2;
+        string str2;
+        stream >> str2;
         if(w<0)
         {
         w=(w*w*w*w)+1000;
