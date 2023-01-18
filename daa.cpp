@@ -8,7 +8,7 @@
 #include<vector>
 #include<cstring>
 #include <bits/stdc++.h>
-#inlcude<sstream>
+#include<sstream>
 using namespace std;
 struct node
 {
